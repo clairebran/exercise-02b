@@ -1,0 +1,29 @@
+---
+title: "2b Notes"
+author: "Claire Brandes"
+date: "2024-01-28"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Some notes from class on Wednesday, January 24th
+
+## You can choose different ways to display the html output of code chunks in RMarkdown
+
+eval evaluates (or doesn't evaluate) the code chunk\
+here is eval = TRUE, which shows the code and the output 
+```{r eval=TRUE}
+2 + 2
+```
+here is eval = FALSE, this puts the code chunk in the html file but not the output
+```{r eval=FALSE}
+2 + 2
+```
+here is echo = FALSE, this shows the output but not the code chunk
+```{r echo=FALSE}
+2 + 2
+```
+
